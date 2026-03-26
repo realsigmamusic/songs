@@ -1,0 +1,80 @@
+key G
+4/4
+
+#i
+G % % %
+G Ab.. Bb. Ab. G % %
+
+#s
+G C.. C#dim..
+G.. E7+. E7. A7.. D7..
+G.. BbM7.. EbM7.. D7..
+
+#v
+G %
+_Eia, salvos _avançai,
+G D7
+_nada de te_mer
+Am7 D7
+_Vamos firmes _batalhar,
+Am7.. D7.. G. G#dim7. Am7. D7.
+_prontos _pra ven_cer___
+G %
+_Vai conosco o _General,
+G7 C
+_nosso bom Je_sus
+C#dim G.. E7+. E7.
+_Ele nos da_rá vi_tó_ria
+A7.. D7.. G
+_pe_la _cruz
+
+#c
+B7 Em7
+Avante, _pois, e sem pa_rar,
+B7 Em7
+o Evan_gelho anunci_ai
+A7 D
+O Evan_gelho Quadrangu_lar
+A7. Bm7. A/C#.. D
+de Deus, o _nos_so e_terno _Pai
+G %
+Pois Cristo _salva o peca_dor
+Em7.. A7.. D
+para que _seja um _bom cris_tão
+Am7 D7
+Cura tam_bém a sua _dor,
+Am7. Bm7. C. D7. G
+qualquer do_en_ça e _a_fli_ção
+G %
+Com seu po_der quer bati_zar,
+G7 C
+do céu vi_rá pra nos le_var.
+C#dim G.. E7+. E7.
+_E, com ele, nós ha_vemos _sem_pre
+A7.. D7.. G
+_de _rei_nar
+
+#s
+G.. BbM7.. EbM7.. D7..
+
+#v
+_Vamos templos _levantar
+_por todo o Bra_sil
+_A pregar, sem _descansar,
+_nosso _Rei gen_til___
+_Vamos missio_nários ser,
+_todos, todos _nós
+_Transmitindo _com pra_zer _de
+_Deus _a _voz
+
+#c
+
+#o x2
+C.. C#dim.. G.. E7+. E7.
+_E, com _ele, nós ha_vemos _sem_pre
+A7.. D7.. G
+_de _rei_nar
+
+#ending
+G... C. G... D.
+G G
