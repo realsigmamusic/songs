@@ -1,0 +1,87 @@
+key F#
+4/4
+
+#i
+B2 C#2 D#m7 A#m7
+
+#v
+B2
+Eu me deparei_
+C#2
+Com aquele mestre escrev_endo
+A#m7
+Com o dedo no chão_
+D#m7
+Ouvindo os fariseus a _lhes falar
+B2
+Que a Lei de Moi_sés
+C#2
+Me condenava por meus er_ros
+A#m7
+Mas nenhuma _pedra
+D#m7
+Ele pegou pra me a_pedrejar
+
+#p
+B2
+_Eu só tinha os meus pecados
+C#2
+_Pra lhe oferecer
+A#m7
+Mas mesmo as_sim me amou
+D#m7
+Mas mesmo as_sim me amou
+B2
+_Com uma frase: atire a pedra
+C#2
+_Quem nunca pecou
+A#m7
+Ele me _perdoou
+D#m7
+Ele me _perdoou
+G#m7.. F#/A#.. B2
+_Sua irresis_tível graça _me alcan_çou
+
+#c
+F# %
+Quem é _esse? que era _sem pecado
+D#m7 %
+e não me conde_nou. No lu_gar da morte,
+B2 G#m7
+vida me ofer_tou o Cor_deiro que por mim
+F#/C# C#2
+se en_tregou, e os meus pe_cados levou.
+
+#i
+
+#p
+
+#c x2
+
+#i x2
+
+#b x2
+B2 C#2
+_ Eu não Te troco por n_ada
+D#m7
+Não há espaço pra mais n_ada
+A#m7
+Todo vazio que havia em mim_
+B2
+Hoje é Sua mor_ada
+
+C#2
+A minha alma busca_va
+D#m7
+E nada me complet_ava
+A#m7
+A Tua presença é o que faltava em _mim
+B2
+Minha vida foi transform_ada
+
+key Ab
+#c x2
+
+#b
+
+#p
