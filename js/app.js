@@ -15,7 +15,7 @@ async function carregarMusicaDaURL() {
         container.innerHTML = `
             <div class="text-center text-muted py-5">
                 <h4>Nenhuma música encontrada</h4>
-                <p>Acesse usando um link direto. Exemplo:<br><code>?song=nome+da+música.txt</code></p>
+                <p>Acesse usando um link direto. Exemplo:<br><code>https://realsigmamusic.github.io/songs/?song=nome+da+música.txt</code></p>
             </div>`;
         return;
     }
@@ -28,11 +28,9 @@ async function carregarMusicaDaURL() {
         const resposta = await fetch(`songs/${songUrl}`);
         if (!resposta.ok) throw new Error(`O arquivo <b>${songUrl}</b> não foi encontrado na pasta songs/.`);
         
-        // Aqui guardamos APENAS o texto, sem fazer o parse (conversão)
         textoCifraOriginal = await resposta.text();
         tituloAtual = songUrl.replace('.txt', '').replace(/\//g, ' - ');
 
-        // Chama a função que desenha na tela
         renderizarCifra();
         
         document.title = `${tituloAtual} - Real Sigma Music`;
@@ -44,10 +42,8 @@ async function carregarMusicaDaURL() {
 }
 
 function renderizarCifra() {
-    // Se ainda não baixou o texto, não faz nada
     if (!textoCifraOriginal) return;
 
-    // A MÁGICA AQUI: Faz o parse sempre do zero usando o texto original e limpo!
     const parsedSong = parseSong(textoCifraOriginal);
 
     const htmlOutput = renderSong(parsedSong, {
@@ -64,7 +60,7 @@ function renderizarCifra() {
     const badgeTom = tomAtual === 0 ? '' : `<span class="badge bg-secondary ms-2 fs-6 align-middle">${tomAtual > 0 ? '+' : ''}${tomAtual}</span>`;
 
     container.innerHTML = `
-        <h1 class="mb-4 text-capitalize d-flex align-items-center justify-content-center">${tituloAtual} ${badgeTom}</h1>
+        <h3 class="mb-4 text-capitalize">${tituloAtual} ${badgeTom}</h3>
         <div id="render-area">${htmlOutput}</div>
     `;
 
