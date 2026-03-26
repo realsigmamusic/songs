@@ -1,8 +1,9 @@
 key Am
 4/4
 
-#i x2
-Am7 Dm7 G C.. Bm7b5. E7.
+#i
+Am7 FM7 G C.. Bm7b5. E7.
+Am7 FM7 G C.. E7
 
 #v
 Am7 Dm7
