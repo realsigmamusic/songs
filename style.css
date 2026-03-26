@@ -1,0 +1,87 @@
+/* ChordMark CSS Classes */
+.cmSong {
+	font-family: var(--bs-font-monospace);
+	white-space: pre-wrap;
+	line-height: normal;
+}
+
+p {
+	margin: 0;
+}
+
+/* Tonalidade */
+.cmKeyDeclaration {
+	color: var(--bs-success);
+	font-weight: 900;
+}
+
+/* Fórmula de compasso */
+.cmTimeSignature {
+	color: var(--bs-success);
+	font-weight: 900;
+}
+
+/* Repetição */
+.cmSectionMultiplier {
+	color: var(--bs-success);
+}
+
+/* Título de sessões */
+.cmSectionLabel {
+	background-color: var(--bs-secondary-bg);
+	border-radius: var(--bs-border-radius);
+	border-bottom: none;
+	color: var(--bs-warning);
+	font-weight: 900;
+	padding: 0.5rem 0 0.4rem 0.5rem;
+	margin: 1.2rem 0 0.8rem 0;
+	display: block;
+	width: 100%;
+}
+
+/* Linha de acordes */
+.cmChordLine {
+	display: block;
+}
+
+/* Acordes */
+.cmChordSymbol {
+	color: var(--bs-primary);
+	font-weight: 900;
+	cursor: pointer;
+}
+
+.cmChordSymbol:hover,
+.cmChordSymbol:active {
+	color: var(--bs-info);
+}
+
+/* Linha de letra da música */
+.cmLyricLine {
+	display: block;
+}
+
+/* Repetição */
+.cmLine--isFromSectionCopy .cmLyricLine,
+.cmLine--isFromSectionCopy .cmChordLine {
+	opacity: 1.0;
+}
+
+/* Barra de compasso */
+.cmBarSeparator {
+	color: var(--bs-secondary);
+	opacity: 0.7;
+}
+
+/* Pontos */
+.cmChordDuration {
+	color: var(--bs-secondary);
+	opacity: 0.7;
+}
+
+/* [] */
+.cmSubBeatGroupOpener,
+.cmSubBeatGroupCloser {
+	color: var(--bs-secondary);
+	opacity: 0.7;
+}

@@ -1,0 +1,63 @@
+key C#
+4/4
+
+#i
+C# A#m7 G# F#M7
+
+#v
+C# A#m7
+_ Tudo é perda se não _tenho a Ti
+G# F#M7
+_ A Tua graça é o que me _basta
+C# A#m7
+_ Sem Você, não sei pra _onde ir
+G# F#M7
+_ Sem Tua presença, nada im_porta
+
+#p
+F#M7
+Do que _adianta eu 
+G#
+Ganhar o _mundo inteiro
+C#/E#      
+E a _minha alma se perder
+F#M7
+Sem _Ti, Senhor?
+
+F#M7
+Do que _adianta
+G#
+Eu juntar os _meus tesouros
+C#/E#
+_E me esquecer daquele 
+F#M7
+_que me amou?
+
+#c
+D#m.. C#.. G#
+Se eu não tenho a _Ti, não _tenho _nada
+C#/F F#M7
+Nada eu se_rei sem Ti, Sen_hor
+D#m.. C#.. G#
+Só Tua pre_sença é o que_ me _basta
+C#/F F#M7
+Eu te leva_rei por onde eu _for 
+
+#o
+F#M7
+
+#p
+
+#c x2
+
+#s x2
+D#m G#
+C#/F F#M7
+
+#b x4
+D#m G#
+Tua pre_sença é o que me _basta
+C#/F F#M7
+_Quem sou eu sem Teu amor, Sen_hor?
+
+#c x2
