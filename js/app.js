@@ -9,6 +9,15 @@ let tituloAtual = "";
 async function carregarMusicaDaURL() {
     const urlParams = new URLSearchParams(window.location.search);
     let songUrl = urlParams.get('song');
+
+    let tomDaUrl = urlParams.get('tom');
+    if (tomDaUrl) {
+        tomAtual = parseInt(tomDaUrl);
+        if (isNaN(tomAtual)) tomAtual = 0;
+        if (tomAtual < -12) tomAtual = -12;
+        if (tomAtual > 12) tomAtual = 12;
+    }
+
     const container = document.getElementById('chord-container');
 
     if (!songUrl) {
@@ -67,6 +76,16 @@ function renderizarCifra() {
     aplicarFonte();
 }
 
+function atualizarUrlTom() {
+    const url = new URL(window.location);
+    if (tomAtual === 0) {
+        url.searchParams.delete('tom');
+    } else {
+        url.searchParams.set('tom', tomAtual);
+    }
+    window.history.replaceState({}, '', url); 
+}
+
 carregarMusicaDaURL();
 
 
@@ -91,17 +110,21 @@ function aplicarFonte() {
 }
 
 
-// CONTROLES DE TOM
+// --- CONTROLES DE TOM ---
 window.mudarTom = function(delta) {
     tomAtual += delta;
     if (tomAtual < -12) tomAtual = -12;
     if (tomAtual > 12) tomAtual = 12;
+    
     renderizarCifra();
+    atualizarUrlTom();
 }
 
 window.resetarTom = function() {
     tomAtual = 0;
+    
     renderizarCifra();
+    atualizarUrlTom();
 }
 
 // CONTROLE DE TEMA
