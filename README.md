@@ -3,7 +3,7 @@
 - https://realsigmamusic.github.io/songs/?song=Fhop+Music/Sublime.txt
 - https://realsigmamusic.github.io/songs/?song=Gabriel+Guedes/Santo+Pra+Sempre.txt&tom=2
 - https://realsigmamusic.github.io/songs/?song=Gerson+Rufino/Eu+Só+Quero+Adorar.txt&tom=2
-- https://realsigmamusic.github.io/songs/?song=Isral+Salazar/Avante.txt&tom=2
+- https://realsigmamusic.github.io/songs/?song=Israel+Salazar/Avante.txt&tom=2
 - https://realsigmamusic.github.io/songs/?song=Julliany+Souza/Quem+É+Esse.txt
 - https://realsigmamusic.github.io/songs/?song=QW/Hino+Quadrangular.txt
 - https://realsigmamusic.github.io/songs/?song=Marcus+Salles/Estamos+de+P%C3%A9.txt&tom=5
