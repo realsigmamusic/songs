@@ -6,3 +6,4 @@
 - https://realsigmamusic.github.io/songs/?song=Isral+Salazar/Avante.txt&tom=2
 - https://realsigmamusic.github.io/songs/?song=Julliany+Souza/Quem+É+Esse.txt&tom=0
 - https://realsigmamusic.github.io/songs/?song=QW/Hino+Quadrangular.txt&tom=0
+- https://realsigmamusic.github.io/songs/?song=Marcus+Salles/Estamos+de+P%C3%A9.txt&tom=5
