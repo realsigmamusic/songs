@@ -42,7 +42,7 @@ async function carregarMusicaDaURL() {
 
         renderizarCifra();
         
-        document.title = `${tituloAtual} - Real Sigma Music`;
+        document.title = `${tituloAtual}`;
 
     } catch (erro) {
         console.error(erro);
@@ -108,7 +108,6 @@ function aplicarFonte() {
     const area = document.getElementById('render-area');
     if (area) area.style.fontSize = `${tamanhoFonte}%`;
 }
-
 
 // --- CONTROLES DE TOM ---
 window.mudarTom = function(delta) {
