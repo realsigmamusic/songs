@@ -1,19 +1,19 @@
 key G
 4/4
 
-key Gm
 #i
 G % % %
+key Gm
 G Ab.. Bb. Ab. G %
 
-key G
 #s
+key G 
 C.. C#dim.. G.. E7+. E7. A7.. D7..
 key Gm
 G.. BbM7.. EbM7.. D7..
 
-key G
 #v
+key G
 G %
 _Eia, salvos _avançai,
 G D7
@@ -57,11 +57,10 @@ _E, com ele, nós ha_vemos _sem_pre
 A7.. D7.. G
 _de _rei_nar
 
-key Gm
 #s
+key Gm
 G.. BbM7.. EbM7.. D7..
 
-key G
 #v
 _Vamos templos _levantar
 _por todo o Bra_sil
