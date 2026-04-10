@@ -5,6 +5,16 @@ let tamanhoFonte = parseInt(localStorage.getItem('tamanhoFonte')) || 80; // 80% 
 let tomAtual = 0; 
 let textoCifraOriginal = ""; // Guarda apenas o texto bruto
 let tituloAtual = ""; 
+let musicas = [];
+
+async function carregarMusicas() {
+    try {
+        const resposta = await fetch('songs.json');
+        musicas = await resposta.json();
+    } catch (erro) {
+        console.error("Erro ao carregar lista de músicas:", erro);
+    }
+}
 
 async function carregarMusicaDaURL() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -19,16 +29,22 @@ async function carregarMusicaDaURL() {
     }
 
     const container = document.getElementById('chord-container');
+    const searchResults = document.getElementById('search-results');
 
     if (!songUrl) {
+        searchResults.classList.remove('d-none');
         container.innerHTML = `
             <div class="text-center text-muted py-5">
-                <h4>Nenhuma música encontrada</h4>
-                <p>Acesse usando um link direto. Exemplo:<br><code>https://realsigmamusic.github.io/songs/?song=nome+da+música.txt</code></p>
+                <h4>Bem-vindo ao Real Sigma Music</h4>
+                <p>Use o buscador acima para encontrar sua música favorita.</p>
             </div>`;
+        
+        await carregarMusicas();
+        exibirResultados(musicas);
         return;
     }
 
+    searchResults.classList.add('d-none');
     if (!songUrl.endsWith('.txt')) songUrl += '.txt';
 
     container.innerHTML = `<div class="text-center py-5">Carregando cifra...</div>`;
@@ -86,7 +102,65 @@ function atualizarUrlTom() {
     window.history.replaceState({}, '', url); 
 }
 
-carregarMusicaDaURL();
+function exibirResultados(filtradas) {
+    const lista = document.getElementById('results-list');
+    const searchResults = document.getElementById('search-results');
+    
+    if (filtradas.length === 0) {
+        lista.innerHTML = '<div class="list-group-item text-muted">Nenhuma música encontrada</div>';
+    } else {
+        lista.innerHTML = filtradas.map(m => `
+            <a href="?song=${encodeURIComponent(m.file)}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                <div>
+                    <h6 class="mb-0">${m.title}</h6>
+                    <small class="text-muted">${m.artist}</small>
+                </div>
+                <i class="bi bi-chevron-right text-muted"></i>
+            </a>
+        `).join('');
+    }
+}
+
+// Inicialização
+document.addEventListener('DOMContentLoaded', async () => {
+    await carregarMusicaDaURL();
+    
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            const termo = e.target.value.toLowerCase();
+            const container = document.getElementById('chord-container');
+            const searchResults = document.getElementById('search-results');
+
+            if (termo.length > 0) {
+                searchResults.classList.remove('d-none');
+                container.classList.add('d-none');
+            } else {
+                const urlParams = new URLSearchParams(window.location.search);
+                if (urlParams.get('song')) {
+                    searchResults.classList.add('d-none');
+                    container.classList.remove('d-none');
+                }
+            }
+
+            if (musicas.length === 0) {
+                carregarMusicas().then(() => {
+                    const filtradas = musicas.filter(m => 
+                        m.title.toLowerCase().includes(termo) || 
+                        m.artist.toLowerCase().includes(termo)
+                    );
+                    exibirResultados(filtradas);
+                });
+            } else {
+                const filtradas = musicas.filter(m => 
+                    m.title.toLowerCase().includes(termo) || 
+                    m.artist.toLowerCase().includes(termo)
+                );
+                exibirResultados(filtradas);
+            }
+        });
+    }
+});
 
 
 // CONTROLES DE FONTE
@@ -109,7 +183,7 @@ function aplicarFonte() {
     if (area) area.style.fontSize = `${tamanhoFonte}%`;
 }
 
-// --- CONTROLES DE TOM ---
+// CONTROLES DE TOM
 window.mudarTom = function(delta) {
     tomAtual += delta;
     if (tomAtual < -12) tomAtual = -12;
