@@ -1,13 +1,57 @@
 [
-{"artist": "QW", "title": "Hino Quadrangular", "file": "QW/Hino Quadrangular.txt"},
-{"artist": "Gabriel Guedes", "title": "Santo Pra Sempre", "file": "Gabriel Guedes/Santo Pra Sempre.txt"},
-{"artist": "Marcus Salles", "title": "Estamos de Pé", "file": "Marcus Salles/Estamos de Pé.txt"},
-{"artist": "Aline Barros", "title": "Autor da Vida", "file": "Aline Barros/Autor da Vida.txt"},
-{"artist": "Aline Barros", "title": "Casa do Pai", "file": "Aline Barros/Casa do Pai.txt"},
-{"artist": "Gerson Rufino", "title": "Eu Só Quero Adorar", "file": "Gerson Rufino/Eu Só Quero Adorar.txt"},
-{"artist": "Fhop Music", "title": "A Boa Parte", "file": "Fhop Music/A Boa Parte.txt"},
-{"artist": "Fhop Music", "title": "Sublime", "file": "Fhop Music/Sublime.txt"},
-{"artist": "Israel Salazar", "title": "Avante", "file": "Israel Salazar/Avante.txt"},
-{"artist": "Felipe Rodrigues", "title": "Tudo É Perda", "file": "Felipe Rodrigues/Tudo É Perda.txt"},
-{"artist": "Julliany Souza", "title": "Quem É Esse", "file": "Julliany Souza/Quem É Esse.txt"}
+    {
+        "artist": "QW",
+        "title": "Hino Quadrangular",
+        "file": "QW/Hino Quadrangular.txt"
+    },
+    {
+        "artist": "Gabriel Guedes",
+        "title": "Santo Pra Sempre",
+        "file": "Gabriel Guedes/Santo Pra Sempre.txt"
+    },
+    {
+        "artist": "Marcus Salles",
+        "title": "Estamos de Pé",
+        "file": "Marcus Salles/Estamos de Pé.txt"
+    },
+    {
+        "artist": "Aline Barros",
+        "title": "Autor da Vida",
+        "file": "Aline Barros/Autor da Vida.txt"
+    },
+    {
+        "artist": "Aline Barros",
+        "title": "Casa do Pai",
+        "file": "Aline Barros/Casa do Pai.txt"
+    },
+    {
+        "artist": "Gerson Rufino",
+        "title": "Eu Só Quero Adorar",
+        "file": "Gerson Rufino/Eu Só Quero Adorar.txt"
+    },
+    {
+        "artist": "Fhop Music",
+        "title": "A Boa Parte",
+        "file": "Fhop Music/A Boa Parte.txt"
+    },
+    {
+        "artist": "Fhop Music",
+        "title": "Sublime",
+        "file": "Fhop Music/Sublime.txt"
+    },
+    {
+        "artist": "Israel Salazar",
+        "title": "Avante",
+        "file": "Israel Salazar/Avante.txt"
+    },
+    {
+        "artist": "Felipe Rodrigues",
+        "title": "Tudo É Perda",
+        "file": "Felipe Rodrigues/Tudo É Perda.txt"
+    },
+    {
+        "artist": "Julliany Souza",
+        "title": "Quem É Esse",
+        "file": "Julliany Souza/Quem É Esse.txt"
+    }
 ]
