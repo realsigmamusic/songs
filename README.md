@@ -1,9 +1,9 @@
 - https://realsigmamusic.github.io/songs/?song=Aline+Barros/Autor+da+Vida.txt
 - https://realsigmamusic.github.io/songs/?song=Aline+Barros/Casa+do+Pai.txt&tom=-1
-- https://realsigmamusic.github.io/songs/?song=Felipe+Rodrigues/Tudo+É+Perda.txt
+- https://realsigmamusic.github.io/songs/?song=Felipe+Rodrigues/Tudo+É+Perda.txt&tom=1
 - https://realsigmamusic.github.io/songs/?song=Fhop+Music/A+Boa+Parte.txt
-- https://realsigmamusic.github.io/songs/?song=Fhop+Music/Sublime.txt
-- https://realsigmamusic.github.io/songs/?song=Gabriel+Guedes/Santo+Pra+Sempre.txt&tom=2
+- https://realsigmamusic.github.io/songs/?song=Fhop+Music/Sublime.txt&tom=2
+- https://realsigmamusic.github.io/songs/?song=Gabriel+Guedes/Santo+Pra+Sempre.txt&tom=6
 - https://realsigmamusic.github.io/songs/?song=Gerson+Rufino/Eu+Só+Quero+Adorar.txt&tom=2
 - https://realsigmamusic.github.io/songs/?song=Israel+Salazar/Avante.txt&tom=2
 - https://realsigmamusic.github.io/songs/?song=Julliany+Souza/Quem+É+Esse.txt

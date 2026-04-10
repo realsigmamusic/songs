@@ -10,8 +10,13 @@
 </head>
 <body class="bg-body-secondary">  
    <!--  <div class="container"> -->
-        <div class="fixed-top d-flex justify-content-center align-items-center gap-4 py-2 bg-body-secondary shadow-sm">    
-            <div class="btn-group shadow-sm">
+        <div class="fixed-top d-flex justify-content-center align-items-center gap-2 gap-md-4 py-2 bg-body-secondary shadow-sm px-3">    
+            <a href="index.html" class="btn btn-sm btn-outline-secondary shadow-sm"><i class="bi bi-house-door"></i></a>
+            <div class="input-group input-group-sm shadow-sm flex-grow-1" style="max-width: 300px;">
+                <span class="input-group-text bg-body-tertiary border-end-0"><i class="bi bi-search"></i></span>
+                <input type="text" id="search-input" class="form-control border-start-0" placeholder="Buscar música ou artista...">
+            </div>
+            <div class="btn-group shadow-sm d-none d-sm-flex">
                 <button class="btn btn-sm btn-outline-warning" onclick="mudarTamanhoFonte(-10)">A-</button>
                 <button class="btn btn-sm btn-outline-warning" onclick="resetarFonte()">Fonte</button>
                 <button class="btn btn-sm btn-outline-warning" onclick="mudarTamanhoFonte(10)">A+</button>
@@ -21,6 +26,9 @@
                 <button class="btn btn-sm btn-outline-primary" onclick="resetarTom()">Tom</button>
                 <button class="btn btn-sm btn-outline-primary fw-bold" onclick="mudarTom(1)">+ ½</button>
             </div>
+        </div>
+        <div id="search-results" class="container mt-5 pt-4 d-none">
+            <div class="list-group shadow-sm" id="results-list"></div>
         </div>
         <div id="chord-container" class="chord-sheet bg-body-tertiary px-3 mt-4 py-5"></div>
     <!-- </div> -->
